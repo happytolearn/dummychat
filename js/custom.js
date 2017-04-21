@@ -1,4 +1,5 @@
-    "use strict";
+   (function () {
+   "use strict";
     // Hard coded Data. 
     // In real life scnario, all this interaction will take place with the server
     var chatInfo = {
@@ -38,3 +39,7 @@
     document.getElementById("chat-text").addEventListener("focus", function() {
         errorMsg.innerHTML = "";
     });
+}());
+   
+   
+    

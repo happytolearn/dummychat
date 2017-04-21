@@ -1,4 +1,5 @@
 body{background:#9C2626;}
+h1{color: #fff;}
 .widget-container{width:290px;margin:0 auto;}
 .chat-bubble{position:relative;background:#DFDFDF;border:4px solid #eee;padding:5px 10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;color:#666;}
 .chat-bubble:after,.chat-bubble:before{top:100%;left:80%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;}
